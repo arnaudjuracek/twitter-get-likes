@@ -1,0 +1,8 @@
+{
+  "tweet_id": "tweet.id",
+  "timestamp": "+new Date(tweet.created_at)",
+  "text": "tweet.full_text",
+  "author": "tweet.user.name",
+  "author_id": "tweet.user.id",
+  "medias": "tweet.entities.media ? tweet.entities.media.map(m => m.display_url) : ''"
+}

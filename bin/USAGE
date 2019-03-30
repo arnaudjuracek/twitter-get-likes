@@ -1,0 +1,13 @@
+twitter-get-likes
+
+twitter-get-likes username
+twitter-get-likes username > my-likes.csv
+twitter-get-likes username --json > my-likes.json
+twitter-get-likes --help
+twitter-get-likes --version
+
+Options
+  -h, --help       Show this screen.
+  -v, --version    Print the current version.
+  --json           Output tweets as a JSON object instead of CSV.
+  --schema         Specify a custom CSV schema path.
