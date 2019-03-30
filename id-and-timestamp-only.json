@@ -1,0 +1,4 @@
+{
+  "timestamp": "new Date(tweet.created_at)",
+  "id": "tweet.id"
+}
